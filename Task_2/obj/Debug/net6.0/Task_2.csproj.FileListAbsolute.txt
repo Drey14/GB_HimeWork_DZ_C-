@@ -1,0 +1,15 @@
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/bin/Debug/net6.0/Task_2
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/bin/Debug/net6.0/Task_2.deps.json
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/bin/Debug/net6.0/Task_2.runtimeconfig.json
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/bin/Debug/net6.0/Task_2.dll
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/bin/Debug/net6.0/Task_2.pdb
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.csproj.AssemblyReference.cache
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.AssemblyInfoInputs.cache
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.AssemblyInfo.cs
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.csproj.CoreCompileInputs.cache
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.dll
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/refint/Task_2.dll
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.pdb
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/Task_2.genruntimeconfig.cache
+/Users/aiiganty/Visual_Studio_Project/C#/GB_Work_DZ_C/Task_2/obj/Debug/net6.0/ref/Task_2.dll

@@ -1,35 +1,40 @@
 ﻿// See https://aka.ms/new-console-template for more information
 /*
-Задача 4: 
-Напишите программу, которая принимает на вход три числа и выдаёт 
-максимальное из этих чисел.
-2, 3, 7 -> 7
-44 5 78 -> 78
-22 3 9 -> 22
+Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.Через строку решать нельзя.
+645 -> 5
+78 -> третьей цифры нет
+32679 -> 6
 */
 Console.Clear();
-Console.WriteLine("Введите первое число:");
-int num1 =Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число:");
-int num2 =Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите третье число:");
-int num3 =Convert.ToInt32(Console.ReadLine());
-int max = num1;
-if(max>num2){
-    if(max>num3){
-        Console.WriteLine("Первое введеное число максимальное max="+max);
-    }else{
-        max = num3;
-        Console.WriteLine("Третье введеное число максимальное max="+max);
-    }
-}else{
-    max = num2;
-    if(max>num3){
-        Console.WriteLine("Второе введеное число максимальное max="+max);
-    }else{
-        max = num3;
-        Console.WriteLine("Третье введеное число максимальное max="+max);
-    }
+System.Console.WriteLine($"Введите трехзначное число!");
+int num = Convert.ToInt32(Console.ReadLine());
+int numberDigit = 0;
+int numBuffer = num;
+int firstNumTwo = -1;
+int tailNum = -1;
+while((numBuffer=numBuffer/10)!=0){
+numberDigit++;
 }
 
+firstNumTwo=firstNumber(numberDigit);
+tailNum = tailNumber(numberDigit);
+System.Console.WriteLine($"Третьей цифры нет {firstNumTwo}{tailNum}");
+
+
+
+int firstNumber(int numberDigit){
+    int localDel = 10;
+    for(int i=0; i<numberDigit-2; i++){
+        localDel = localDel*10;
+    }
+    return num/localDel;
+}
+
+int tailNumber(int numberDigit){
+    int localDel = 10;
+    for(int i=0; i<numberDigit-3; i++){
+        localDel = localDel*10;
+    }
+    return num%localDel;
+}
 
